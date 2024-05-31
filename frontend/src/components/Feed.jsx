@@ -2,8 +2,10 @@ import React from 'react'
 
 function Feed() {
   return (
-    <div>
-        
+    <div className='w-full'>
+        <div className=''>
+
+        </div>
     </div>
   )
 }

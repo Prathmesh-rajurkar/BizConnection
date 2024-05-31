@@ -4,11 +4,11 @@ import NewsFeed from './NewsFeed'
 
 function Main() {
   return (
-    <div className='flex flex-row items-start py-10'>
-        <div className='w-[21%]'>
+    <div className='flex flex-row items-start justify-center py-10'>
+        <div className='w-[21%] hidden md:block'>
         <RightSideBar/>
         </div>
-        <div className='w-[77%]'>
+        <div className='w-[90%] md:w-[75%]'>
             <NewsFeed/>
         </div>
     </div>
