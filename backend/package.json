@@ -1,14 +1,23 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "a backend for biz connection",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/index.js"
   },
-  "author": "",
+  "author": "prathmesh",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ]
 }
